@@ -2154,6 +2154,7 @@ ALE supports a very wide variety of tools. Other linter or fixer options are
 documented in additional help files.
 
   ada.....................................|ale-ada-options|
+    ada_ls................................|ale-ada-ls|
     gcc...................................|ale-ada-gcc|
     gnatpp................................|ale-ada-gnatpp|
   ansible.................................|ale-ansible-options|

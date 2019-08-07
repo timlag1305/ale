@@ -3,6 +3,36 @@ ALE Ada Integration                                           *ale-ada-options*
 
 
 ===============================================================================
+ada_ls                                                               *ale-ada-ls*
+
+g:ale_ada_ls_executable                               *g:ale_ada_ls_executable*
+                                                      *b:ale_ada_ls_executable*
+  Type: |String|
+  Default: `'ada_language_server'`
+
+This variable can be changed to use a different executable for
+ada_language_server.
+
+
+g:ale_ada_ls_project                                     *g:ale_ada_ls_project*
+                                                         *b:ale_ada_ls_project*
+  Type: |String|
+  Default: `'default.gpr'`
+
+This variable can be changed to use a different GPR file for
+ada_language_server.
+
+
+g:ale_ada_ls_encoding                                   *g:ale_ada_ls_encoding*
+                                                        *b:ale_ada_ls_encoding*
+  Type: |String|
+  Default: `'utf-8'`
+
+This variable can be changed to use a different file encoding for
+ada_language_server.
+
+
+===============================================================================
 gcc                                                               *ale-ada-gcc*
 
 g:ale_ada_gcc_executable                             *g:ale_ada_gcc_executable*
