@@ -26,5 +26,3 @@ call ale#linter#Define('ada', {
 \   'project_root': function('ada_ls#GetRootDir'),
 \   'initialization_options': function('ada_ls#GetInitializationOptions')
 \})
-"\       'ada.projectFile': {b -> ale#Var(b, 'ada_ls_project')},
-"\       'ada.defaultCharset': {b -> ale#Var(b, 'ada_ls_encoding')}
