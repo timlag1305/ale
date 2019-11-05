@@ -3,7 +3,7 @@ ALE Ada Integration                                           *ale-ada-options*
 
 
 ===============================================================================
-ada_ls                                                               *ale-ada-ls*
+ada_ls                                                             *ale-ada-ls*
 
 g:ale_ada_ls_executable                               *g:ale_ada_ls_executable*
                                                       *b:ale_ada_ls_executable*
